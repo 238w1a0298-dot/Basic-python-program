@@ -1,0 +1,23 @@
+
+m = int(input("Enter the month number (1-12): "))
+
+if m == 2:
+    print("28 or 29 days")
+elif m in [1, 3, 5, 7, 8, 10, 12]:
+    print("31 days")
+elif m in [4, 6, 9, 11]:
+    print("30 days")
+else:
+    print("Invalid month number")
+[3:40 pm, 17/9/2025] 🦥: //write a python program to check the body temperature(FEVER,NORMAL&COLD)
+
+temp = int(input("Check the body temperature: "))
+
+if temp >= 100:
+    print("FEVER")
+elif 97 <= temp <= 99:
+    print("NORMAL")
+elif temp < 97:
+    print("COLD")
+else:
+    print("Invalid temperature")
